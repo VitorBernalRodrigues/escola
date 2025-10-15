@@ -10,6 +10,8 @@ app.get('/', (req, res) => {
     res.send("Voce esta na pagina principal get")
 })
 
+
+
 app.get('/', (req, res) => {
     const data = database.select("usuario")
     res.status(200).json()

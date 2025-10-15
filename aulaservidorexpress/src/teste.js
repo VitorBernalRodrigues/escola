@@ -5,6 +5,7 @@ const banco = {
     ],
     produtos: [
         {nome: "Mouse", valor: 150},
-        {nome: "teclado", valor: 200}
+        {nome: "teclado", valor: 200},
+        {nome: "cadeira", valor: 250}
     ]
 }
